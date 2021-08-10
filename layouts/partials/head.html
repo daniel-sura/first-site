@@ -30,7 +30,7 @@
     {{ template "_internal/twitter_cards.html" . }}
 
     <!-- Style -->
-    {{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+    {{ $styles := resources.Get "/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{$styles.Data.Integrity}}" crossorigin="anonymous" media="screen">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
