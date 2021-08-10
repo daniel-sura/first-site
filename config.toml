@@ -3,7 +3,7 @@ theme= "vno-hugo"
 
 # Basic
 title = "Daniel Sura"
-baseURL = "danielsura.com"
+baseURL = "localhost"
 
 # Pagination
 paginate = 10

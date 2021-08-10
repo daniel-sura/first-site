@@ -1,6 +1,3 @@
 [submodule "themes/vno-hugo"]
 	path = themes/vno-hugo
 	url = https://github.com/xslingcn/vno-hugo.git
-[submodule "themes/themes/vno-hugo"]
-	path = themes/themes/vno-hugo
-	url = https://github.com/xslingcn/vno-hugo.git
