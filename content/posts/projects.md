@@ -4,8 +4,7 @@ tags: ["Projects"]
 title: "Projects"
 date: 2021-08-11T16:14:41-06:00
 math: false
-draft: true
-weight: 100
+draft: false
 ---
 
 Currently helped with:
