@@ -16,7 +16,7 @@ paginatePath = "page"
   [[menu.main]]
     name = "Projects"
     identifier = "projects"
-    url = "#"
+    url = "/2021/08/projects/"
     weight = 10
 
 [taxonomies]
@@ -26,7 +26,7 @@ paginatePath = "page"
 author = "Daniel Sura"
 subtitle = "Junior Developer"
 description = "I've been learning as a Junior Developer since 2018, it all started with my older brother telling me to help him with some websites made in Wordpress. After that, I started doing small projects with HTML, CSS, PHP, Wordpress. Striving to learn more and improve by trying out new things."
-welcomeMessage = "Oh What a World"
+welcomeMessage = "About me"
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 coverColor = "slate"
@@ -60,3 +60,9 @@ description = "Visit blog"
 
 [permalinks]
 posts = "/:year/:month/:title/"
+
+[markup]
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true

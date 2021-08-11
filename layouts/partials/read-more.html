@@ -1,7 +1,7 @@
 <section class="read-more">
     {{ if .Next }}
     <div class="read-more-item">
-        <span class="read-more-item-dim">最近的文章</span>
+        <span class="read-more-item-dim"></span>
         <h2 class="post-list__post-title post-title"><a href="{{ .Next.RelPermalink }}" title="link to {{ .Next.Title }}">{{ .Next.Title }}</a></h2>
         <p class="excerpt">{{ .Next.Summary | truncate 250}}&hellip;</p>
         <div class="post-list__meta">
@@ -14,7 +14,7 @@
 
     {{ if .Prev }}
     <div class="read-more-item">
-        <span class="read-more-item-dim">更早的文章</span>
+        <span class="read-more-item-dim"></span>
         <h2 class="post-list__post-title post-title"><a href="{{ .Prev.RelPermalink }}" title="link to {{ .Prev.Title }}">{{ .Prev.Title }}</a></h2>
         <p class="excerpt">{{ .Prev.Summary | truncate 250}}&hellip;</p>
         <div class="post-list__meta">
@@ -24,4 +24,3 @@
         </div>
     {{ end }}
  </section>
- 

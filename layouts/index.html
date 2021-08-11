@@ -3,7 +3,7 @@
     <ol class="post-list">
         {{ range .Paginator.Pages }}
         <li>
-            <h2 class="post-list__post-title post-title"><a href="{{ .RelPermalink }}" title="访问 {{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <h2 class="post-list__post-title post-title"><a href="{{ .RelPermalink }}" title="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             <p class="excerpt">{{ .Summary | truncate 250 }}&hellip;</p>
             <div class="post-list__meta">
                 <time datetime="{{ .Date.Format " 2006-01-02 15:04:05 -0700 " }}" class="post-list__meta--date date">{{ .Date.Format "2006-01-02" }}</time>
